@@ -1,3 +1,7 @@
+
+
+Abstract Summary: Optical palpation is an emerging elastography technique that generates images of mechanical stress at the tissue surface, with applications in intraoperative cancer detection. Image formation is simulated using finite element analysis and validated with experiments on silicone phantoms, providing an analysis of trends in detectability, feature resolution, and contrast ratio. 
+
 To generate FEA data, the CompressionOpticalPalpation.cae file was used in Abaqus, with the model 'Mesh17-Final'. The code to submit all combinations of variables as jobs is available as a macro in the file 'abaqusMacros.py' with function title 'Final_Mesh17_DeleteFilesAfterJob'.
 
 The analysis was undertaken using the jupyter notebook files begining with 'Final_Import_and_Analysis-UseBoundaryConditions'.
@@ -8,3 +12,9 @@ The experimental validation data and analysis is presented in 'Experimental_Vali
 
 For more detailed information about the use of computational optical palpation visit https://github.com/philipwijesinghe/computational-optical-palpation.
 
+Requirements
+- matlab (tested with 2016a), including 3rd party toolboxes:
+   - gridfit
+   - Inpaint_nans
+- Jupyter Notebook, python (tested with 3.6)
+- Abaqus (tested with 6.13)
