@@ -1,0 +1,20 @@
+# -*- coding: mbcs -*-
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.openAuxMdb(pathName=
+    'F:/Rhys/AbaqusModels/BoundaryHold_Investigations/AxisSymmetricStandard.cae')
+mdb.copyAuxMdbModel(fromName='Mesh17-Final', toName='Mesh17-Final')
+mdb.closeAuxMdb()
+del mdb.models['Model-1']
+# Save by 21705319 on 2024_04_24-12.56.26; build 2020 2019_09_14-01.49.31 163176

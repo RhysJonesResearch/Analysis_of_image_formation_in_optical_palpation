@@ -1,4 +1,4 @@
-To generate FEA data, the AxisSymmetricStandard.cae file was used in Abaqus, with the model 'Mesh17-Final'. The code to submit all combinations of variables as jobs is available as a macro in the file 'abaqusMacros.py' with function title 'Final_Mesh17_DeleteFilesAfterJob'.
+To generate FEA data, the CompressionOpticalPalpation.cae file was used in Abaqus, with the model 'Mesh17-Final'. The code to submit all combinations of variables as jobs is available as a macro in the file 'abaqusMacros.py' with function title 'Final_Mesh17_DeleteFilesAfterJob'.
 
 The analysis was undertaken using the jupyter notebook files begining with 'Final_Import_and_Analysis-UseBoundaryConditions'.
 
