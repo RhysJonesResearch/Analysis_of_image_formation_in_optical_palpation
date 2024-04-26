@@ -1,6 +1,6 @@
-Submitted for published as: Jones, R., Fang, Q. & Kennedy, B. F. (2024). Analysis of image formation in optical palpation. Journal of Biophotonics.
+Submitted for consideration as: Jones, R., Fang, Q. & Kennedy, B. F. (2024). Analysis of image formation in optical palpation. Journal of Biophotonics.
 
-Abstract Summary: Optical palpation is an emerging elastography technique that generates images of mechanical stress at the tissue surface, with applications in intraoperative cancer detection. Image formation is simulated using finite element analysis and validated with experiments on silicone phantoms, providing an analysis of trends in detectability, feature resolution, and contrast ratio. 
+Summary: Code and finite element models to model optical palpation, an emerging elastography technique to image mechanical stress in 2D across a surface, with applications in intraoperative cancer detection. The analysis investigates trends in detectability, feature resolution, and contrast ratio and is validated experiments on silicone phantoms.
 
 To generate FEA data, the CompressionOpticalPalpation.cae file was used in Abaqus, with the model 'Mesh17-Final'. The code to submit all combinations of variables as jobs is available as a macro in the file 'abaqusMacros.py' with function title 'Final_Mesh17_DeleteFilesAfterJob'.
 
