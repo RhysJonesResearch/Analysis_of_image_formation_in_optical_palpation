@@ -2,7 +2,7 @@ Submitted for consideration as: Jones, R., Fang, Q. & Kennedy, B. F. (2024). Ana
 
 Summary: Code and finite element models to model optical palpation, an emerging elastography technique to image mechanical stress in 2D across a surface, with applications in intraoperative cancer detection. The analysis investigates trends in detectability, feature resolution, and contrast ratio and is validated experiments on silicone phantoms.
 
-To generate FEA data, the CompressionOpticalPalpation.cae file was used in Abaqus, with the model 'Mesh17-Final'. The code to submit all combinations of variables as jobs is available as a macro in the file 'abaqusMacros.py' with function title 'Final_Mesh17_DeleteFilesAfterJob'.
+To generate FEA data, the CompressionOpticalPalpation.cae file was used in Abaqus, with the model 'Mesh17-Final'. The code to submit, run, and output stress & displacement of the layer, of all combinations of variables as jobs is available as a macro in the file 'abaqusMacros.py' with function title 'Final_Mesh17_DeleteFilesAfterJob'. Do not give other commands to Abaqus CAE while this macro is running, adjust memory and cpu limits per job based on number of jobs and your own device.
 
 The analysis was undertaken using the jupyter notebook files begining with 'Final_Import_and_Analysis-UseBoundaryConditions'.
 
